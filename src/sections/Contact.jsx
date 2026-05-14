@@ -212,7 +212,7 @@ const Contact = () => {
 
               <div className="flex items-center gap-3 mt-1 flex-wrap">
                 <a
-                  href="https://linkedin.com/in/manish-negi"
+                  href="https://www.linkedin.com/in/manish-negi-627401255"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[var(--olive)] font-semibold break-all hover:underline"
@@ -222,7 +222,7 @@ const Contact = () => {
                     )
                   }
                 >
-                  linkedin.com/in/manish-negi-627401255/
+                  linkedin.com/in/manishnegi
                 </a>
               </div>
             </div>
