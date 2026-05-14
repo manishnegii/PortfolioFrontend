@@ -135,16 +135,6 @@ const Projects = () => {
         0
       );
 
-      tl.to(
-        cardsTrackRef.current,
-        {
-          x: -totalScroll,
-          y: -30,
-          ease: "none",
-        },
-        0
-      );
-
     }, sectionRef);
 
     return () => {
@@ -450,13 +440,14 @@ const ProjectCard = ({ project }) => (
                 py-2
                 rounded-lg
 
-                bg-[var(--cream)]
-                text-[var(--olive-dark)]
+                border
+                border-[var(--cream)]/20
 
                 text-sm
-                font-medium
+                text-[var(--cream)]
 
-                hover:opacity-90
+                hover:bg-[var(--cream)]
+                hover:text-[var(--olive-dark)]
 
                 transition-all
                 duration-300
