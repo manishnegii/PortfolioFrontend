@@ -69,6 +69,12 @@ const Projects = () => {
       //   !cardsTrackRef.current
       // ) return;
 
+      const isDesktop = window.innerWidth >= 1024;
+      let wrapper = null;
+      let handleMouseMove = null;
+
+
+      if(isDesktop){
 
       const wrapper = cardsWrapperRef.current;
       let currentX = 0;
@@ -105,6 +111,7 @@ const Projects = () => {
         }
       };
       wrapper.addEventListener("mousemove", handleMouseMove);
+    }
 
     const ctx = gsap.context(() => {
 
@@ -115,8 +122,8 @@ const Projects = () => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 20%",
-          end: () => `+=${totalScroll}`,
+          start: "top 40%",
+          end: () => "+=1400",
           pin: false,
           scrub: 1,
           anticipatePin: 1,
@@ -138,9 +145,11 @@ const Projects = () => {
     }, sectionRef);
 
     return () => {
-      wrapper.removeEventListener("mousemove",handleMouseMove);
+      if(wrapper && handleMouseMove){
+      wrapper.removeEventListener("mousemove",handleMouseMove);}
       
-      ctx.revert()};
+      ctx.revert();
+    };
 
   }, []);
 
@@ -221,10 +230,11 @@ const Projects = () => {
           data-testid="projects-grid"
           className="
             flex
-            gap-8
+            flex-wrap
+            lg:flex-nowrap
+            gap-6
             pb-8
             will-change-transform
-            touch-pan-x
           "
         >
 
@@ -250,25 +260,17 @@ const ProjectCard = ({ project }) => (
     className="
       project-card
 
-      w-[90vw]
-      sm:w-[360px]
+      w-full
+      sm:w-[calc(50%-1rem)]
       lg:w-[400px]
-
       flex-shrink-0
-
       group
-
       rounded-2xl
-
       overflow-hidden
-
       bg-[var(--olive-dark)]
-
       border
       border-[var(--cream)]/10
-
       hover:border-[var(--cream)]/30
-
       transition-all
       duration-300
     "

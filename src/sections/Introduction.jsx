@@ -21,7 +21,7 @@ const Introduction = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: sectionRef.current,
-        start: "top top",
+        start: "top center",
         end: "+=1400",
         scrub: 1,
         pin: false,
