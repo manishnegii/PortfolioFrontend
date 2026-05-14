@@ -91,8 +91,8 @@ export const splitTextAnimation = (leftElement, rightElement, trigger, options =
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: trigger || leftElement,
-        start: options.start || "top 70%",
-        end: options.end || "top 30%",
+        start: options.start || "top center",
+        end: options.end || "+=800",
         scrub: options.scrub || 1.2,
         markers: options.markers || false,
         pinSpacing: false,
