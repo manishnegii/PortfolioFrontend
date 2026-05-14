@@ -218,11 +218,11 @@ const Contact = () => {
                   className="text-[var(--olive)] font-semibold break-all hover:underline"
                   onClick={() =>
                     copyToClipboard(
-                      "https://linkedin.com/in/manish-negi"
+                      "https://linkedin.com/in/manish-negi-627401255"
                     )
                   }
                 >
-                  linkedin.com/in/manish-negi
+                  linkedin.com/in/manish-negi-627401255/
                 </a>
               </div>
             </div>
@@ -235,13 +235,13 @@ const Contact = () => {
 
               <div className="flex items-center gap-3 mt-1 flex-wrap">
                 <a
-                  href="https://github.com/manishnegi"
+                  href="https://github.com/manishnegii"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[var(--olive)] font-semibold break-all hover:underline"
                   onClick={() =>
                     copyToClipboard(
-                      "https://github.com/manishnegi"
+                      "https://github.com/manishnegii"
                     )
                   }
                 >
