@@ -17,8 +17,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 
 ```
 src/
-├── components/
-│   └── portfolio/
+├── sections/
 │       ├── About.jsx        # About section
 │       ├── Contact.jsx      # Contact section with form
 │       ├── Cover.jsx        # Landing/hero section
