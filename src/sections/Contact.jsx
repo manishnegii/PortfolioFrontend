@@ -192,14 +192,14 @@ const Contact = () => {
 
               <div className="flex items-center gap-3 mt-1 flex-wrap">
                 <a
-                  href="mailto:imanishnegi8000@gmail.com"
+                  href="mailto:imanishnegi888@gmail.com"
                   className="text-[var(--olive)] font-semibold break-all hover:underline"
                   onClick={() =>
                     copyToClipboard(
-                      "imanishnegi8000@gmail.com"
+                      "imanishnegi888@gmail.com"
                     )}
                 >
-                  imanishnegi8000@gmail.com
+                  imanishnegi888@gmail.com
                 </a>
               </div>
             </div>
