@@ -58,7 +58,7 @@ const Cover = () => {
       </div>
 
       <div className="mt-16 lg:mt-24 grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6">
-        <ContactItem label="Email" value="imanishnegi8000@gmail.com" href="mailto:imanishnegi8000@gmail.com" testId="cover-mail" onCopy={copyToClipboard} />
+        <ContactItem label="Email" value="imanishnegi888@gmail.com" href="mailto:imanishnegi888@gmail.com" testId="cover-mail" onCopy={copyToClipboard} />
         <ContactItem label="LinkedIn" value="linkedin.com/in/manish-negi" href="https://www.linkedin.com/in/manish-negi-627401255/" testId="cover-linkedin" onCopy={copyToClipboard}/>
         <ContactItem label="Github" value="github.com/manishnegi" href="https://github.com/manishnegii/" testId="cover-github" onCopy={copyToClipboard}/>
       </div>
