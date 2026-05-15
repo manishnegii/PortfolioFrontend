@@ -432,31 +432,6 @@ const ProjectCard = ({ project }) => (
               GitHub
             </a>
 
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-
-              className="
-                px-4
-                py-2
-                rounded-lg
-
-                border
-                border-[var(--cream)]/20
-
-                text-sm
-                text-[var(--cream)]
-
-                hover:bg-[var(--cream)]
-                hover:text-[var(--olive-dark)]
-
-                transition-all
-                duration-300
-              "
-            >
-              Live Demo
-            </a>
           </>
         )}
 
