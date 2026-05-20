@@ -17,7 +17,7 @@ const PROJECTS = [
     stack: "Spring Boot · MySQL · JWT · Hibernate",
     desc: "Scalable e-commerce backend with secure JWT authentication, product management, order processing, cart functionality and RESTful APIs optimized for performance.",
     img: subjectImg1,
-    github: "https://github.com/manishnegii/project_name",
+    github: "https://github.com/manishnegii/Store-SpringBoot-Backend",
     demo: "https://demo.vercel.app",
   },
 
