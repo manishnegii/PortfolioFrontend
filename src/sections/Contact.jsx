@@ -281,11 +281,6 @@ const Contact = () => {
 
         </div>
       </div>
-      <div className="mt-[2rem] border-t border-[var(--cream)]/10 text-center">
-  <p className="text-sm tracking-wide text-[var(--cream)]/55 font-bold">
-    © {new Date().getFullYear()} Manish Negi — Built with React, GSAP & Spring Boot
-  </p>
-</div>
     </SectionFrame>
   );
 };
