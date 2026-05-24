@@ -7,6 +7,7 @@ import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Marquee from "./sections/Marquee";
+import Footer from "./sections/Footer";
 import {useEffect} from "react";
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
       <Marquee />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   );
 };
